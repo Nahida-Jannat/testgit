@@ -6,9 +6,9 @@ def linear(arr, n, search):
             return i
     return 0
 
-arr = [10, 20, 30, 40, 60, 32]
+arr = [10, 20, 30, 40, 60, 32, 45]
 n = len(arr)
-search = 60
+search = 32
 
 index = linear(arr, n, search)
 if (index == 0):
